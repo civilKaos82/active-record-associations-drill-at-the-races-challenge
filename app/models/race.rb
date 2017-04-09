@@ -1,2 +1,2 @@
-class Race < ActiveRecord::Base
+class Race < ApplicationRecord
 end

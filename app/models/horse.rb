@@ -1,2 +1,2 @@
-class Horse < ActiveRecord::Base
+class Horse < ApplicationRecord
 end
