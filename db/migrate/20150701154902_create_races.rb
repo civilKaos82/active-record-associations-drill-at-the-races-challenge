@@ -5,7 +5,7 @@ class CreateRaces < ActiveRecord::Migration[5.0]
       t.string :location
       t.date   :date
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end

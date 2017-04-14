@@ -5,7 +5,7 @@ class CreateEntries < ActiveRecord::Migration[5.0]
       t.integer :jockey_id
       t.integer :horse_id
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end
