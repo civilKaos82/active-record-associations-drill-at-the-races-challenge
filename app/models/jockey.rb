@@ -1,2 +1,2 @@
-class Jockey < ActiveRecord::Base
+class Jockey < ApplicationRecord
 end

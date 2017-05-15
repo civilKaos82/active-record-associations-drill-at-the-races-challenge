@@ -37,7 +37,7 @@ When our associations have been written, we'll be able to answer the following q
 Active Record provides a lot of functionality with very little code—provided that we follow its conventions.  However, sometimes it is necessary or desirable to break these conventions.
 
 ```ruby
-class User < ActiveRecord::Base
+class User < ApplicationRecord
   has_many :views
   has_many :purchases
   has_many :reviews
