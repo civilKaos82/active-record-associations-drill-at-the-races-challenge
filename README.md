@@ -56,7 +56,7 @@ All of these associations would be between `User` and `Item`. What would happen 
 And then sometimes we want to break convention because it makes our code more readable.  In the example above, what would it mean for a user to have many items?  What relationship would such an association represent?  Is it viewed items, purchased items, reviewed items, items they have for sale, etc.?  As with variable and method names, we want the names of our associations to be descriptive of the actual relationship between the two models.
 
 
-##Releases
+## Releases
 
 ### Pre-release: Setup
 The necessary models and migrations have been provided for us.  We will need to set up the database though.  Lets bundle to make sure that the necessary gems are installed and then create and migrate our database.
